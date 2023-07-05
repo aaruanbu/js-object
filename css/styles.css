@@ -1,0 +1,43 @@
+	*{
+		margin:0;
+		padding:0;
+		box-sizing:border-box;
+	}
+	#sec-1{
+		background-image: linear-gradient(#ffffff52,#ffffff52),url('../img/imgback.jpeg');
+		background-repeat:no-repeat;
+		padding-bottom:145px;
+	}
+	img{
+		width:100%;
+	}
+	.head::before{
+		content:"";
+		position:absolute;
+		border:1px solid;
+		width:70px;
+		color:orange;
+		height:2px;
+		bottom:74px;
+		left:120px;
+		
+		
+	}
+	.imgitem{
+		position:relative;
+		
+	}
+	.titles{
+		position:absolute;
+		left:7%;
+		right:5%;
+		bottom:-90px;
+		box-shadow:2px 2px 5px black;
+		
+	}
+	.fonco{
+		color:orange;
+	}
+	.foncolo{
+		font-family: 'Fasthand', cursive;
+	}
